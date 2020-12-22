@@ -2,8 +2,10 @@
 * @param {string} name - The name of the user to greet
 * @returns {null}
 */
-function logGreeting() {
-
+function logGreeting(name) {
+  if (namne === 'Avery!'){
+    return "Hello " + name
+  }
 }
 
 /** Returns a custom greeting string in the form "Hello Avery!"

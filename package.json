@@ -1,7 +1,7 @@
 {
   "name": "module-one-mid",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![Pursuit Logo](https://avatars1.githubusercontent.com/u/5825944?s=200&v=4)](https://pursuit.org)",
   "main": "index.js",
   "scripts": {
     "test": "jest --runInBand --verbose"
@@ -10,5 +10,20 @@
   "license": "ISC",
   "devDependencies": {
     "jest": "^26.5.2"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexanderl96-hub/Module-One-Midmodule-Assessment.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/alexanderl96-hub/Module-One-Midmodule-Assessment/issues"
+  },
+  "homepage": "https://github.com/alexanderl96-hub/Module-One-Midmodule-Assessment#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
   }
 }
