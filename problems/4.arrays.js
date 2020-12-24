@@ -2,18 +2,15 @@
 * @param {number[]} arr - The input array
 * @returns {number} - The average of the first and last values
 */
-function firstAndLastAverage() {
-
-}
-
+function firstAndLastAverage() {}
 /** Duplicates all values inside an array.
 * Sample input: [1,4,2,5]
 * Sample output: [1,4,2,5,1,4,2,5]
 * @param {number[]} arr - The input array
 * @returns {number[]} - The duplicated array
 */
-function duplicateArray(arr) {
-  
+function duplicateArray() {
+
 }
 
 
@@ -22,9 +19,12 @@ function duplicateArray(arr) {
 * @param {any[]} arr - The input array
 * @returns {any[]} - The array with the first 3 elements removed
 */
-function removeFirstThreeElements() {
-
+function removeFirstThreeElements(arr) {
+ let newArr = arr.slice(3)
+ console.log(newArr)
+ return newArr
 }
+
 
 module.exports = {
   firstAndLastAverage,

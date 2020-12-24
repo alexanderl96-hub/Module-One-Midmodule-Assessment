@@ -4,11 +4,10 @@
 */
 function evenNumbers(num) {
   let newnumber = []
-  for ( let i = 0;i < num.length;i++ ){
-    if ( num[i] %2 !==0){
-      newnumber.push(num[i])
-    }
-  }return newnumber
+  for ( let i = 0;i < num.length;i+= 2 ){
+    return newnumber(num)
+  }
+   
   
 }
 
@@ -21,7 +20,7 @@ function multiplesToOneThousand(num) {
   let newnum = []
   let val = 0
   while( val <= num){
-    newnum[val] = val * 3
+    newnum[val] = val * 2
     val++
   }return newnum
 

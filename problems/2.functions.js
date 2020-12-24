@@ -3,9 +3,10 @@
 * @returns {null}
 */
 function logGreeting(name) {
-  if (namne === 'Avery!'){
+  if (name === " Avery!"){
     return "Hello " + name
   }
+    
 }
 
 /** Returns a custom greeting string in the form "Hello Avery!"
@@ -22,7 +23,9 @@ function greeting() {
 * @returns {null}
 * @modifies {global.globalCount}
 */
-function incrementGlobalCount() {
+function incrementGlobalCount(val) {
+  global.globalCount +=val
+
 
 }
 /** Multiplies three numbers
@@ -31,7 +34,8 @@ function incrementGlobalCount() {
 * @param {number} thirdNum - The third number
 * @returns {number} - The product of the three numbers
 */
-function multiply() {
+function multiply(firstNum, secondNum, thirdNum) {
+return firstNum * secondNum * thirdNum
 
 }
 
