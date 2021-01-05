@@ -18,8 +18,9 @@ function temperatureMessage(temp) {
 function temperatureMessageUsingTernary(temp) {
   temp === 45? temp : 45
   switch (45){
-    case temp <32:
+    case temp < 32:
       return "It's freezing!";
+      case temp > 32:
       default:
       return "It's alright";
   }

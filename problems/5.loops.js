@@ -5,7 +5,8 @@
 function evenNumbers(num) {
   let newnumber = []
   for ( let i = 0;i < num.length;i+= 2 ){
-    return newnumber(num)
+    if(i %2 ==0)
+    return newnumber[i]
   }
    
   
@@ -21,7 +22,7 @@ function multiplesToOneThousand(num) {
   let val = 0
   while( val <= num){
     newnum[val] = val * 2
-    val++
+    val+=2
   }return newnum
 
 }
