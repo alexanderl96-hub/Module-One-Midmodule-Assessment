@@ -9,8 +9,10 @@ function firstAndLastAverage() {}
 * @param {number[]} arr - The input array
 * @returns {number[]} - The duplicated array
 */
-function duplicateArray() {
-
+function duplicateArray(arr) {
+  let newarr = arr.slice(3)
+  newarr = arr.join(3)
+  return newarr
 }
 
 

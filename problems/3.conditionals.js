@@ -16,14 +16,7 @@ function temperatureMessage(temp) {
 * @returns {string} - A message about the temperature
 */
 function temperatureMessageUsingTernary(temp) {
-  temp === 45? temp : 45
-  switch (45){
-    case temp < 32:
-      return "It's freezing!";
-      case temp > 32:
-      default:
-      return "It's alright";
-  }
+  return temp < 32 ? "It's freezing!" : "It's alright"
 
 
 }

@@ -19,10 +19,8 @@ function evenNumbers(num) {
 */
 function multiplesToOneThousand(num) {
   let newnum = []
-  let val = 0
-  while( val <= num){
-    newnum[val] = val * 2
-    val+=2
+  for( let i = 0; i < num.length;i++){
+    newnum[i] = num[i]* 2
   }return newnum
 
 }
