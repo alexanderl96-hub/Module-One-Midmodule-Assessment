@@ -2,7 +2,15 @@
 * @param {number[]} arr - The input array
 * @returns {number} - The average of the first and last values
 */
-function firstAndLastAverage() {}
+function firstAndLastAverage(arr) {
+  if (arr.length >= 2){
+    let average = (arr[0] + arr[arr.length -1]) / 2
+    return average
+  }else{
+    return  null
+  }
+}
+
 /** Duplicates all values inside an array.
 * Sample input: [1,4,2,5]
 * Sample output: [1,4,2,5,1,4,2,5]
@@ -10,9 +18,9 @@ function firstAndLastAverage() {}
 * @returns {number[]} - The duplicated array
 */
 function duplicateArray(arr) {
-  let newarr = arr.slice(3)
-  newarr = arr.join(3)
-  return newarr
+  let newarr = arr.slice(0)
+  let newarr1 = arr.concat(newarr)
+  return newarr1
 }
 
 
